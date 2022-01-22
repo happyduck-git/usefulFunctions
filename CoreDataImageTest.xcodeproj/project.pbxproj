@@ -14,6 +14,8 @@
 		245A7C6C2799A4DE00A32E4D /* CoreDataImageTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 245A7C6A2799A4DE00A32E4D /* CoreDataImageTest.xcdatamodeld */; };
 		245A7C6E2799A4DF00A32E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245A7C6D2799A4DF00A32E4D /* Assets.xcassets */; };
 		245A7C712799A4DF00A32E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245A7C6F2799A4DF00A32E4D /* LaunchScreen.storyboard */; };
+		245A7C7A2799AEF300A32E4D /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245A7C782799AEF300A32E4D /* Image+CoreDataClass.swift */; };
+		245A7C7B2799AEF300A32E4D /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245A7C792799AEF300A32E4D /* Image+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		245A7C6D2799A4DF00A32E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		245A7C702799A4DF00A32E4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		245A7C722799A4DF00A32E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245A7C782799AEF300A32E4D /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		245A7C792799AEF300A32E4D /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,8 @@
 		245A7C552799A4DE00A32E4D = {
 			isa = PBXGroup;
 			children = (
+				245A7C782799AEF300A32E4D /* Image+CoreDataClass.swift */,
+				245A7C792799AEF300A32E4D /* Image+CoreDataProperties.swift */,
 				245A7C602799A4DE00A32E4D /* CoreDataImageTest */,
 				245A7C5F2799A4DE00A32E4D /* Products */,
 			);
@@ -144,7 +150,9 @@
 				245A7C6C2799A4DE00A32E4D /* CoreDataImageTest.xcdatamodeld in Sources */,
 				245A7C662799A4DE00A32E4D /* ViewController.swift in Sources */,
 				245A7C622799A4DE00A32E4D /* AppDelegate.swift in Sources */,
+				245A7C7B2799AEF300A32E4D /* Image+CoreDataProperties.swift in Sources */,
 				245A7C642799A4DE00A32E4D /* SceneDelegate.swift in Sources */,
+				245A7C7A2799AEF300A32E4D /* Image+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
